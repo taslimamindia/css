@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q100 Days CSS Challenge </head> <body> <div class=\"main\"> <div class=\"day1\"> <div class=\"hundred\"> <div class=\"zero z1\"> <div class=\"zerocircle\"></div> </div> <div class=\"zero z2\"> <div class=\"zerocircle\"></div> </div> </div> </div> </div> </body> </html>\\E$"}

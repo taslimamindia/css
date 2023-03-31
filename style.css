@@ -1,0 +1,108 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* First day */
+.day1 {
+    /* Using function linear-gradient(degree, color pourcentage, ...) */
+    background: linear-gradient(35deg, rgb(67, 60, 160) 0%, rgba(78, 196, 201) 100%);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: linear-gradient(35deg, rgb(67, 60, 160) 0%, rgba(78, 196, 201) 100%);
+}
+.day1 > .hundred {
+    width: 180px;
+    height: 80px;
+    /* background: #000; */
+    position: relative;
+}
+.day1 > .hundred > .zero {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+.day1 > .hundred > .zero > .zerocircle {
+    width: 55%;
+    height: 55%;
+    border-radius: 100%;
+    box-shadow: rgb(70, 105, 173);
+    background: linear-gradient(35deg, rgb(70, 105, 173) 30%, rgba(75, 141, 188) 100%);
+}
+.one-one {
+    position: absolute;
+    left: -4px;
+    top: 11px;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 40px;
+    background-color: white;
+    border-radius: 2px;
+    transform: rotate(-50deg);
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1200;
+}
+.one-two {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    background: white;
+    width: 20px;
+    height: 80px;
+    right: 78%;
+    box-shadow: black;
+    border-radius: 2px;
+    z-index: 1500;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+.z1 {
+    right: 38%;
+    top: 0%;
+    z-index: 1000;
+}
+.z2 {
+    right: 0%;
+    z-index: 500;
+}
+.days, .csschallenge {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    width: 180px;
+}
+.days {
+    font-family: "Courier New", "Courier", sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    text-align: right;
+    height: 65px;
+    letter-spacing: .04em;
+}
+.csschallenge {
+    font-family: "Courier New", "Courier", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: right;
+}
+
+
+/* Second day */
