@@ -1,0 +1,157 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.day2 {
+    /* Using function linear-gradient(degree, color pourcentage, ...) */
+    background: rgb(63, 175, 130);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: linear-gradient(35deg, rgb(67, 60, 160) 0%, rgba(78, 196, 201) 100%);
+}
+.icon-menu {
+    width: 100px;
+    height: 55px;
+    position: relative;
+}
+.bar {
+    background: white;
+    width: 90px;
+    height: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.6);
+}
+.bar1 {
+    position: absolute;
+    top: 0;
+}
+.bar2 {
+    position: absolute;
+    top: 50%;
+
+}
+.bar3 {
+    position: absolute;
+    top: 100%;
+}
+
+.transite-1 {
+    animation-name: animate1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+@keyframes animate1 {
+    0% {
+        /* top: 0; */
+    }
+    100% {
+        top: 50%;
+    }
+}
+
+.rotate-1 {
+    animation-name: rotate1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+@keyframes rotate1 {
+    0% {
+        top: 50%;
+    }
+    100% { 
+        top: 50%;
+        transform: rotate(45deg);
+    }
+}
+
+.rotate-1-reverse {
+    animation-name: rotate1reverse;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+@keyframes rotate1reverse {
+    0% {
+        top: 50%;
+        transform: rotate(45deg);
+    }
+    100% { 
+        top: 50%;
+        transform: rotate(0deg);
+    }
+}
+
+.rotate-2 {
+    animation-name: rotate2;
+    animation-direction: normal;
+    animation-duration: 1s;
+}
+@keyframes rotate2 {
+    0% {
+        top: 50%;
+    }
+    100% { 
+        top: 50%;
+        transform: rotate(135deg);
+    }
+}
+
+.rotate-2-reverse {
+    animation-name: rotate2reverse;
+    animation-direction: normal;
+    animation-duration: 1s;
+}
+@keyframes rotate2reverse {
+    0% {
+        top: 50%;
+        transform: rotate(135deg);
+    }
+    100% { 
+        top: 50%;
+        transform: rotate(0deg);
+    }
+}
+
+.transite-1-reverse-A {
+    animation-name: animate1reverseA;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+@keyframes animate1reverseA {
+    from {
+        top: 50%;
+    }
+    to {
+        top: 0;
+    }
+}
+
+.transite-1-reverse-B {
+    animation-name: animate1reverseB;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+@keyframes animate1reverseB {
+    from {
+        top: 50%;
+    }
+    to {
+        top: 100%;
+    }
+}
