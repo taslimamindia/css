@@ -7,12 +7,7 @@
     function show() {
         //Remove
         clear()
-        // document.querySelectorAll(".bar").forEach((elt) => {
-        //     elt.classList.remove("transite-1-reverse-A");
-        //     elt.classList.remove("transite-1-reverse-B");
-        //     elt.classList.remove("rotate-1-reverse");
-        //     elt.classList.remove("rotate-2-reverse");
-        // })
+        
         //Add
         document.querySelectorAll(".bar").forEach((elt) => {elt.classList.add("transite-1")})
         window.setTimeout(() => {
